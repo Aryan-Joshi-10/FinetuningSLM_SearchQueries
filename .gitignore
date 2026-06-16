@@ -99,14 +99,6 @@ huggingface_cache/
 *.bin
 *.safetensors
 
-# ==========================
-# Data Files
-# ==========================
-data/
-datasets/
-outputs/
-results/
-checkpoints/
 
 # ==========================
 # Vector Databases
