@@ -71,8 +71,8 @@ from transformers import (
 from trl import SFTTrainer, SFTConfig
 
 PROJECT_ROOT = Path(".").resolve()
-ANNOTATIONS_PATH = PROJECT_ROOT / "files" / "annotations.jsonl"
-AUGMENTED_PATH = PROJECT_ROOT / "Augmented" / "augmentedQ.jsonl"
+ANNOTATIONS_PATH = PROJECT_ROOT / "data" / "annotations.jsonl"
+AUGMENTED_PATH = PROJECT_ROOT / "data" / "augmentedQ.jsonl"
 SPLITS_DIR = PROJECT_ROOT / "data" / "splits"
 OUTPUT_DIR = PROJECT_ROOT / "outputs" / "gemma-ner-lora"
 
