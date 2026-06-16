@@ -1,1 +1,1 @@
-# Internship_Jio
+# FinetuningSLM_SearchQueries
