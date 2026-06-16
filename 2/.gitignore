@@ -1,0 +1,129 @@
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+downloads/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# ==========================
+# Jupyter Notebook
+# ==========================
+.ipynb_checkpoints/
+
+# ==========================
+# Environment Variables
+# ==========================
+.env
+.env.*
+!.env.example
+
+# ==========================
+# Logs
+# ==========================
+*.log
+logs/
+
+# ==========================
+# Testing & Coverage
+# ==========================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# ==========================
+# Type Checkers
+# ==========================
+.mypy_cache/
+.pyre/
+.ruff_cache/
+
+# ==========================
+# VS Code
+# ==========================
+.vscode/
+
+# ==========================
+# JetBrains IDEs
+# ==========================
+.idea/
+
+# ==========================
+# macOS
+# ==========================
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# ==========================
+# FastAPI / Uvicorn
+# ==========================
+*.pid
+
+# ==========================
+# Hugging Face
+# ==========================
+.cache/
+huggingface_cache/
+
+# ==========================
+# Model Files
+# ==========================
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+
+# ==========================
+# Data Files
+# ==========================
+data/
+datasets/
+outputs/
+results/
+checkpoints/
+
+# ==========================
+# Vector Databases
+# ==========================
+chroma_db/
+faiss_index/
+pinecone_cache/
+
+# ==========================
+# Temporary Files
+# ==========================
+tmp/
+temp/
+*.tmp
+
+# ==========================
+# OS Generated Files
+# ==========================
+Thumbs.db
+Desktop.ini
